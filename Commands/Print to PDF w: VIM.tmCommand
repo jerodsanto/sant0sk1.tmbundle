@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>[ -n "$TM_FILEPATH" ] &amp;&amp; \
+PDF_FILE=~/Desktop/`basename "$TM_FILEPATH"`.pdf
+PS_FILE=/tmp/`basename "$TM_FILEPATH"`.ps
+vim \
+     "+set number" "+syntax on" "+color slate" \
+     "+set printoptions=number:y" \
+     "+set printfont=courier:h9" \
+     "+hardcopy &gt; $PS_FILE" "+q" \
+     $TM_FILEPATH &amp;&gt;/dev/null &amp;&amp; \
+     ps2pdf $PS_FILE $PDF_FILE &amp;&amp; \
+     rm $PS_FILE</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@p</string>
+	<key>name</key>
+	<string>Print to PDF w/ VIM</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>3C0C6409-05DB-47DD-AB67-C0075F8A71B1</string>
+</dict>
+</plist>

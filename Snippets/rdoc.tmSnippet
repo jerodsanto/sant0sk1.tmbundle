@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># == Synopsis 
+#   $1
+#   
+#
+# == Examples
+#   $2
+#     
+# == Usage 
+#   $3
+#
+#   For help use: ruby_cl_skeleton -h
+#
+# == Options
+#   -h, --help          Displays help message
+#   -v, --version       Display the version, then exit
+#
+# == Author
+#   Jerod Santo, jerod.santo@gmail.com, http://blog.jerodsanto.net
+#
+# == Copyright
+#   Copyright (c) 2008 Jerod Ssanto. Licensed under the MIT License:
+#   http://www.opensource.org/licenses/mit-license.php
+</string>
+	<key>name</key>
+	<string>rdoc</string>
+	<key>tabTrigger</key>
+	<string>rdoc</string>
+	<key>uuid</key>
+	<string>CDB39B02-9A05-434F-A4B2-0ECDAB15ECC7</string>
+</dict>
+</plist>

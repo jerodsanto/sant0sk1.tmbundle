@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/usr/bin/env ${1:ruby}</string>
+	<key>name</key>
+	<string>shebang</string>
+	<key>tabTrigger</key>
+	<string>shebang</string>
+	<key>uuid</key>
+	<string>8C1448AF-B9F0-4E1D-BFD7-86176EC68C1C</string>
+</dict>
+</plist>
