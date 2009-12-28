@@ -3,18 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>### ASSOCIATIONS
-
-### VALIDATIONS
-
-### CONTEXTS
-
-</string>
+	<string>console.log($1);</string>
 	<key>name</key>
-	<string>shoulda unit test layout</string>
+	<string>log to console</string>
 	<key>tabTrigger</key>
-	<string>shoulda</string>
+	<string>con</string>
 	<key>uuid</key>
-	<string>47B1099B-9A36-4187-AEAD-FD490AB0B16D</string>
+	<string>6C7B4C61-2B0F-43F7-B0B2-6B47A0BC1E55</string>
 </dict>
 </plist>

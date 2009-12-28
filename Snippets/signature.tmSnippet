@@ -4,11 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>#--
-#    Name    : $1
-#    Author  : Jerod Santo
-#    Contact : "moc.liamg@otnas.dorej".reverse
-#    Date    : `date "+%Y %B %e"`
-#    About   : $2
+#  Name    : $1
+#  Author  : Jerod Santo
+#  Contact : "moc.liamg@otnas.dorej".reverse
+#  Date    : `date "+%Y %B %e"`
+#  About   : $2
 #--</string>
 	<key>name</key>
 	<string>signature</string>
