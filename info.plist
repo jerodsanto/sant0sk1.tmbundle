@@ -48,6 +48,20 @@
 	</dict>
 	<key>name</key>
 	<string>Sant0sk1</string>
+	<key>ordering</key>
+	<array>
+		<string>6EF092B4-3A23-42E1-A867-2205DE12CC45</string>
+		<string>1DEABC05-6DFB-4AE5-B222-C4642804CBDE</string>
+		<string>A454FE14-CC86-4983-91CD-E6E35AA1C3DC</string>
+		<string>3C0C6409-05DB-47DD-AB67-C0075F8A71B1</string>
+		<string>F4D1D3D1-62BC-4714-9D7A-9B2CE26B48EE</string>
+		<string>F5113884-884F-4AB4-ADF9-14B5F8CA3397</string>
+		<string>5CEAD8C7-C241-4FDB-A1CA-13343BC22FE4</string>
+		<string>6C7B4C61-2B0F-43F7-B0B2-6B47A0BC1E55</string>
+		<string>CDB39B02-9A05-434F-A4B2-0ECDAB15ECC7</string>
+		<string>8C1448AF-B9F0-4E1D-BFD7-86176EC68C1C</string>
+		<string>2E16BBE1-643B-45BE-8CEB-8AE42EB65E44</string>
+	</array>
 	<key>uuid</key>
 	<string>A7E8FE8C-F284-4FBE-AFAF-7634992193EF</string>
 </dict>
